@@ -1,12 +1,12 @@
 # No.27 Todo list
 
-#### [DEMO](https://kaochihyu.github.io/100-days-css-challenge/no.27/index.html)
-![image](https://i.imgur.com/8reXtS0.jpg)
+#### [DEMO](https://kaochihyu.github.io/100-days-css-challenge/no.28/index.html)
+![image](https://imgur.com/dCXhGMY.jpg)
 
 #### Point
-* 點選後圓圈會變勾勾，用 transition 製造動畫感
-* 勾勾是用 SVG Polyline 畫的
-* transition 的最後一個秒數可以設定延遲出現時間，流暢感更好
+* 使用 path 結合多個直線或曲線來畫出複雜形狀
+* 用 animation + keyframe 針對不同的元件製作動畫
+* 利用 SASS 的 for 迴圈更快的寫出程式碼
 
 #### 使用技術
 * HTML
