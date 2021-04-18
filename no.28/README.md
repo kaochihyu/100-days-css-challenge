@@ -1,4 +1,4 @@
-# No.2 Todo list
+# No.28 Todo list
 
 #### [DEMO](https://kaochihyu.github.io/100-days-css-challenge/no.28/index.html)
 ![image](https://imgur.com/dCXhGMY.jpg)
