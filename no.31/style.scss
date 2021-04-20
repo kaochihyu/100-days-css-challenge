@@ -1,0 +1,49 @@
+.frame {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 400px;
+	margin-top: -200px;
+	margin-left: -200px;
+	border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+	background: #fff;
+	background-image: linear-gradient(to bottom right, #74ebd5, #ACB6E5);
+	color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+  
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+  
+.dots {
+	width: 12px;
+	height: 12px;
+	background-color: #fff;
+	border-radius: 50%;
+	margin: 6px;
+}
+  
+@for $i from 1 through 20 {
+	$time: 60 / (60 - $i);
+	.dot#{$i} {
+		animation: dot ($time) + s ease-in-out infinite;
+	}
+}
+  
+@keyframes dot {
+	0%,100% {
+		transform: translateX(50px);
+	}
+	50% {
+		transform: translateX(-50%);
+	}
+}
