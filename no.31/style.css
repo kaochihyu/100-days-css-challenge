@@ -10,6 +10,7 @@
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
   background: #fff;
+  background-image: linear-gradient(to bottom right, #74ebd5, #ACB6E5);
   color: #333;
   font-family: "Open Sans", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -23,40 +24,100 @@
   transform: translate(-50%, -50%);
 }
 
-.line {
-  fill: none;
-  stroke: #555;
-  stroke-width: 3px;
-  stroke-linecap: round;
-  animation: line 2.5s linear infinite;
-}
-
-.circle {
-  width: 30px;
-  height: 30px;
+.dots {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
   border-radius: 50%;
-  border: 4px solid #ff7d9b;
-  position: absolute;
-  top: 90px;
-  left: 170px;
-  opacity: 0;
-  animation: circle 2.5s ease-out infinite both;
+  margin: 6px;
 }
 
-@keyframes line {
-  from {
-    stroke-dasharray: 50 660;
-    stroke-dashoffset: 710;
-  }
-  to {
-    stroke-dasharray: 50 660;
-    stroke-dashoffset: 70;
-  }
+.dot1 {
+  animation: dot 1.0169491525s ease-in-out infinite;
 }
-@keyframes circle {
-  0%, 30% {
-    opacity: 1;
-    transform: scale(0);
+
+.dot2 {
+  animation: dot 1.0344827586s ease-in-out infinite;
+}
+
+.dot3 {
+  animation: dot 1.0526315789s ease-in-out infinite;
+}
+
+.dot4 {
+  animation: dot 1.0714285714s ease-in-out infinite;
+}
+
+.dot5 {
+  animation: dot 1.0909090909s ease-in-out infinite;
+}
+
+.dot6 {
+  animation: dot 1.1111111111s ease-in-out infinite;
+}
+
+.dot7 {
+  animation: dot 1.1320754717s ease-in-out infinite;
+}
+
+.dot8 {
+  animation: dot 1.1538461538s ease-in-out infinite;
+}
+
+.dot9 {
+  animation: dot 1.1764705882s ease-in-out infinite;
+}
+
+.dot10 {
+  animation: dot 1.2s ease-in-out infinite;
+}
+
+.dot11 {
+  animation: dot 1.2244897959s ease-in-out infinite;
+}
+
+.dot12 {
+  animation: dot 1.25s ease-in-out infinite;
+}
+
+.dot13 {
+  animation: dot 1.2765957447s ease-in-out infinite;
+}
+
+.dot14 {
+  animation: dot 1.3043478261s ease-in-out infinite;
+}
+
+.dot15 {
+  animation: dot 1.3333333333s ease-in-out infinite;
+}
+
+.dot16 {
+  animation: dot 1.3636363636s ease-in-out infinite;
+}
+
+.dot17 {
+  animation: dot 1.3953488372s ease-in-out infinite;
+}
+
+.dot18 {
+  animation: dot 1.4285714286s ease-in-out infinite;
+}
+
+.dot19 {
+  animation: dot 1.4634146341s ease-in-out infinite;
+}
+
+.dot20 {
+  animation: dot 1.5s ease-in-out infinite;
+}
+
+@keyframes dot {
+  0%, 100% {
+    transform: translateX(50px);
+  }
+  50% {
+    transform: translateX(-50%);
   }
 }
 
