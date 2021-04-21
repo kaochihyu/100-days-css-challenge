@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>no.32-100 days CSS</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="frame">
+    <div class="center">
+      <div class="container">
+        <div class="operator minus">
+          <i class="fas fa-minus"></i>
+        </div>
+        <div class="number">
+          <span>0</span>
+        </div>
+        <div class="operator plus">
+          <i class="fas fa-plus"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    let countNumber = 0;
+    let showNumber = $('.number')
+
+    $('.plus').on("click", function() {
+      updateNumber(1);
+    });
+
+    $('.minus').on("click", function() {
+      updateNumber(-1);
+    });
+
+    function updateNumber(count) {
+      countNumber += count;
+      showNumber.html('<span class="fadeIn">' + countNumber + '</span>')
+    }
+
+  </script>
+</body>
+</html>
