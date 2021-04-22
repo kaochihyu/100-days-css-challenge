@@ -1,4 +1,4 @@
-# No.31 Pendulum Animation
+# No.3
 
 #### [DEMO](https://kaochihyu.github.io/100-days-css-challenge/no.33/index.html)
 ![image](https://github.com/kaochihyu/100-days-css-challenge/blob/master/DEMO/no.33.jpg)
