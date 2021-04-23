@@ -13,3 +13,4 @@
 - no.31 Pendulum Animation： animation、for loop
 - no.32 Counter：jQuery、flex、font awesome
 - no.33 Cloud Move：animation
+- no.34 Word animation: SVG、animation
