@@ -1,0 +1,58 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #fc74c4;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.hello {
+	stroke: #fc74c4;
+	stroke-dasharray: 270;
+	fill: #000;
+	stroke-width: 18;
+	animation: fill 2.2s ease-in-out forwards;
+}
+
+.line {
+	width: 225px;
+	height: 2px;
+	background-color: #000;
+	margin: 10px 0;
+	animation: line 0.6s ease-out;
+}
+
+@keyframes fill {
+	from {
+		stroke-dashoffset: 0;
+	}
+	to {
+		stroke-dashoffset: 270;
+	}
+}
+
+@keyframes line {
+	from {
+		transform: scale(0)
+	}
+	to {
+		transform: scale(1)
+	}
+}
