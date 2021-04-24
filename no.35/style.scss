@@ -1,0 +1,55 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #509670;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.background {
+	fill: none;
+	stroke: #081c0d;
+	stroke-width: 5;
+}
+
+.loader {
+	fill: none;
+	stroke-width: 5;
+	stroke: #cfe3d4;
+	stroke-linecap: round;
+	stroke-dasharray: 300;
+	animation: line 6s linear infinite, spin 3s linear infinite;
+	transform-origin: 50% 50%;
+}
+
+@keyframes line {
+	from {
+		stroke-dashoffset: 1200;
+	}
+	to {
+		stroke-dashoffset: 600;
+	}
+}
+
+@keyframes spin {
+	100% {
+		transform: rotate(360deg);
+	}
+}
