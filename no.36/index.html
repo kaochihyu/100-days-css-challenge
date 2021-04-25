@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>no.36-100 days CSS</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="frame">
+    <div class="center">
+      <div class="nav">
+        <div class="buttons">
+          <div class="button button-1 mark">
+            <i class="fas fa-border-all"></i>
+          </div>
+          <div class="button button-2">
+            <i class="far fa-comments"></i>
+          </div>
+          <div class="button button-3">
+            <i class="far fa-bell"></i>
+          </div>
+          <div class="button button-4">
+            <i class="fas fa-sliders-h"></i>
+          </div>
+        </div>
+        <div>
+          <div class="search">
+            <i class="fas fa-search"></i>
+          </div>
+        </div>
+      </div>
+      <div class="content content-1 show">
+        <h1 class="title">Dashboard</h1>
+        <p class="text">
+          <span style="width: 250px;"></span>
+          <span style="width: 200px;"></span>
+          <span style="width: 230px;"></span>
+          <span style="width: 260px;"></span>
+          <span style="width: 60px;"></span>
+        </p>
+        <p class="text">
+          <span style="width: 250px;"></span>
+          <span style="width: 230px;"></span>
+          <span style="width: 220px;"></span>
+          <span style="width: 180px;"></span>
+        </p>
+      </div>
+      <div class="content content-2">
+        <h1 class="title">Comment</h1>
+        <p class="text">
+          <span style="width: 250px;"></span>
+          <span style="width: 200px;"></span>
+          <span style="width: 230px;"></span>
+          <span style="width: 260px;"></span>
+          <span style="width: 60px;"></span>
+        </p>
+        <p class="text">
+          <span style="width: 250px;"></span>
+          <span style="width: 230px;"></span>
+          <span style="width: 220px;"></span>
+          <span style="width: 180px;"></span>
+        </p>
+      </div>
+      <div class="content content-3">
+        <h1 class="title">Notification</h1>
+        <p class="text">
+          <span style="width: 250px;"></span>
+          <span style="width: 200px;"></span>
+          <span style="width: 230px;"></span>
+          <span style="width: 260px;"></span>
+          <span style="width: 60px;"></span>
+        </p>
+        <p class="text">
+          <span style="width: 250px;"></span>
+          <span style="width: 230px;"></span>
+          <span style="width: 220px;"></span>
+          <span style="width: 180px;"></span>
+        </p>
+      </div>
+      <div class="content content-4">
+        <h1 class="title">Setting</h1>
+        <p class="text">
+          <span style="width: 250px;"></span>
+          <span style="width: 200px;"></span>
+          <span style="width: 230px;"></span>
+          <span style="width: 260px;"></span>
+          <span style="width: 60px;"></span>
+        </p>
+        <p class="text">
+          <span style="width: 250px;"></span>
+          <span style="width: 230px;"></span>
+          <span style="width: 220px;"></span>
+          <span style="width: 180px;"></span>
+        </p>
+      </div>
+    </div>
+  </div>
+  <script>
+    $('.button').on('click', function() {
+    $('.button').removeClass('mark');
+    $('.content').removeClass('show animate');
+    
+    $(this).addClass('mark')
+    
+    let markButton = document.querySelector(".mark")
+    if (markButton.classList.contains("button-1")) {
+      $('.content-1').addClass("animate show")
+    }
+
+    if (markButton.classList.contains("button-2")) {
+      $('.content-2').addClass("animate show")
+    }
+    
+    if (markButton.classList.contains("button-3")) {
+      $('.content-3').addClass("animate show")
+    }
+    
+    if (markButton.classList.contains("button-4")) {
+      $('.content-4').addClass("animate show")
+    }
+  })
+  </script>
+</body>
+</html>
