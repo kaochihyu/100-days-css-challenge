@@ -15,3 +15,4 @@
 - no.33 Cloud Move：animation [DEMO](https://kaochihyu.github.io/100-days-css-challenge/no.33/index.html)
 - no.34 Word animation： SVG、animation [DEMO](https://kaochihyu.github.io/100-days-css-challenge/no.34/index.html)
 - no.35 Loading Circle：SVG、animation [DEMO](https://kaochihyu.github.io/100-days-css-challenge/no.35/index.html)
+- no.36 Loading Circle：transition、jQuery、flex [DEMO](https://kaochihyu.github.io/100-days-css-challenge/no.36/index.html)
