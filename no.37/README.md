@@ -1,7 +1,7 @@
 # No.37 Loading Circle
 
 #### [DEMO](https://kaochihyu.github.io/100-days-css-challenge/no.37/index.html)
-![image](https://github.com/kaochihyu/100-days-css-challenge/blob/master/DEMO/no.37.jpg)
+![image](https://github.com/kaochihyu/100-days-css-challenge/blob/master/DEMO/no.37)
 
 #### Point
 - transform: perspective(60px); 設定透視距離 transform-style: preserve-3d; 讓物件以 3D 模式呈現
