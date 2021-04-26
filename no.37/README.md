@@ -1,12 +1,12 @@
-# No.35 Loading Circle
+# No.37 Loading Circle
 
-#### [DEMO](https://kaochihyu.github.io/100-days-css-challenge/no.35/index.html)
-![image](https://github.com/kaochihyu/100-days-css-challenge/blob/master/DEMO/no.35.jpg)
+#### [DEMO](https://kaochihyu.github.io/100-days-css-challenge/no.37/index.html)
+![image](https://github.com/kaochihyu/100-days-css-challenge/blob/master/DEMO/no.37.jpg)
 
 #### Point
-- 用 svg 的 circle 標籤畫出圓
-- stroke-dashoffset 來製造出 loading 的動畫
-- 設定 transform-origin:  50% 50%，讓轉圈的軸心在中間
+- transform: perspective(60px); 設定透視距離 transform-style: preserve-3d; 讓物件以 3D 模式呈現
+- transform: translate3d(X, Y, Z) 以 3D 方式定位
+- -webkit- 提供 Chrome、Safari 識別
 
 #### 使用技術
 * HTML
