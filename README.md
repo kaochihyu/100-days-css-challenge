@@ -18,4 +18,5 @@
 - no.36 Board：transition、jQuery、flex [DEMO](https://kaochihyu.github.io/100-days-css-challenge/no.36/index.html)
 - no.37 Switch Card：translate3d、animation、webkit [DEMO](https://kaochihyu.github.io/100-days-css-challenge/no.37/index.html)
 - no.38 Logo transition：transition、svg、jQuery、transform [DEMO](https://kaochihyu.github.io/100-days-css-challenge/no.38/index.html)
+- no.44 Logo transition：animation、for loop [DEMO](https://kaochihyu.github.io/100-days-css-challenge/no.44/index.html)
 
