@@ -1,0 +1,44 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #264a52;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	
+	&:hover .rect {
+		animation-play-state: paused;
+	}
+}
+
+.rect {
+	border: 1px solid #c2c451;
+	position: absolute;
+}
+
+@for $i from 1 through 20 {
+	.rect#{$i} {
+		$size: 210 - ($i * 10);
+		$offset: (400 - $size) / 2;
+		width: $size + px;
+		height: $size + px;
+		top: $offset + px;
+		left: $offset + px;
+		animation: rotate 2s ease-in-out ($i / 30) + s alternate infinite;
+	}
+}
+
+@keyframes rotate {
+	100% {
+		transform: rotate(360deg);
+	}
+}
