@@ -1,12 +1,11 @@
-# No.37 Loading Circle
+# No.44 Twisted pyramid
 
-#### [DEMO](https://kaochihyu.github.io/100-days-css-challenge/no.37/index.html)
-![image](https://github.com/kaochihyu/100-days-css-challenge/blob/master/DEMO/no.37.jpg)
+#### [DEMO](https://kaochihyu.github.io/100-days-css-challenge/no.44/index.html)
+![image](https://github.com/kaochihyu/100-days-css-challenge/blob/master/DEMO/no.44.jpg)
 
 #### Point
-- transform: perspective(60px); 設定透視距離 transform-style: preserve-3d; 讓物件以 3D 模式呈現
-- transform: translate3d(X, Y, Z) 以 3D 方式定位
-- -webkit- 提供 Chrome、Safari 識別
+- 用 for 迴圈快速做出 20 個大小不同的方形
+- 在 scss 用 `$` 宣告變數 ex. `$i`
 
 #### 使用技術
 * HTML
