@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background-image: linear-gradient(to right, #d53369, #cbad6d);
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.button {
+	width: 160px;
+	height: 60px;
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	color: #ddd;
+	cursor: pointer;
+	background-color: transparent;
+	transition: all 0.8s ease-in-out;
+	
+	&:hover {
+		background-color: rgba(0, 0, 0, 0.1);
+		
+		.dash-line {
+			stroke-dashoffset: -440;
+		}
+	}
+}
+
+svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.dash-line {
+	stroke: #fff;
+	stroke-dasharray: 40 440;
+	stroke-dashoffset: 40;
+	fill: transparent;
+	transition: all 0.8s ease-in-out;
+}
