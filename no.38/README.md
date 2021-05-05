@@ -11,7 +11,7 @@
 #### 使用技術
 * HTML
 * SCSS
-* 
+* jQuery
 
 #### [100 Days Challenge](https://100dayscss.com/)
 
